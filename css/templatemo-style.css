@@ -7,13 +7,11 @@ https://templatemo.com/tm-530-mini-profile
 
 Color Codes
 ------------
-brown: #986665;
-green: #98cb00;
-orange: #cc6733;
-blue: #3398cc;
-dark-gray: #676767;
-light-gray: #999999;
-text-gray: #6b6b6b;
+blue-black:#2C383D
+red-pink:#E84A5F
+peach:#FF847C
+light-orange:#FECEAB
+olive-green:#99B898
 
 */
 
@@ -23,16 +21,18 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Fantasy", Marker Felt;
   font-size: 18px;
   font-weight: 400;
-  color: #6b6b6b;
+  color: #2C383D;
   overflow-x: hidden;
 }
 
 a,
 button {
   transition: all 0.3s ease;
+
+
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 .tm-bg-white-transparent {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .tm-bg-green {
@@ -71,6 +71,7 @@ a:hover {
   Welcome section
 */
 #tmWelcome {
+  font-family: "Fantasy", Brushstroke;
   position: relative;
   display: flex;
   align-items: center;
@@ -90,6 +91,8 @@ a:hover {
 }
 
 .tm-brand-name {
+  color: #2c383d;
+  font-family: "Fantasy",Impact, Brushstroke;
   font-size: 3.8rem;
 }
 
@@ -117,6 +120,7 @@ a:hover {
 }
 
 .tm-welcome-title {
+  font-family: "Fantasy",Impact, Brushstroke;
   margin-bottom: 40px;
 }
 
@@ -133,7 +137,6 @@ a:hover {
 
 .tm-welcome-right {
   color: white;
-  background-color: #986665;
   padding: 80px 43px 70px;
   height: 100%;
 }
@@ -195,6 +198,17 @@ a:hover {
 
 .tm-title-small {
   font-size: 1.3rem;
+}
+.tm-btn-welcome {
+  background-color: #E84A5F;
+  padding: 1px 24px;
+  font-size: 1.2rem;
+  border-radius:8px;
+  border: none;
+}
+
+.tm-btn-welcome:hover {
+    background-color: #ff847c;
 }
 
 p {
