@@ -66,7 +66,21 @@ a:hover {
 .tm-bg-dark-gray {
   background-color: #676767;
 }
-
+.animate{
+        top: 50%;
+        padding: 15px 0;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #262626;
+        border-top: 2px solid #262626;
+        border-bottom: 2px solid #262626;
+        letter-spacing: 2px;
+        transition: .5s;
+}
+.animate:hover{
+        letter-spacing: 10px;
+ }
 /*
   Welcome section
 */
@@ -128,6 +142,16 @@ a:hover {
   padding-right: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.tm-welcome-left-resume-btn {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url("./img/flowers and shapes.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
 }
 
 .tm-welcome-left-col {
